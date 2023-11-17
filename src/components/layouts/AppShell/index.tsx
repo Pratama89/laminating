@@ -3,7 +3,6 @@ import { Roboto } from 'next/font/google'
 import dynamic from "next/dynamic"
 
 const Navbar = dynamic(() => import("../Navbar"));
-const Menu = dynamic(() => import("../Menu"));
 
 
 type AppSheelProps = {
@@ -23,7 +22,6 @@ const AppShell = (props: AppSheelProps) => {
     return (
         <main className={roboto.className}>
             {!disableNavbar.includes(pathname) && <Navbar />}
-            <Menu />
             {children}
         </main>
     )
