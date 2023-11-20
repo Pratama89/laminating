@@ -5,7 +5,7 @@ import Link from "next/link"
 const Custom404 = () => {
     return (
         <main className="grid min-h-full h-screen place-items-center  px-6 py-24 sm:py-32 lg:px-8">
-            {/* <img src="/img/pharmadent.jpg" alt="Pharmadent" className="absolute inset-0 -z-10 h-full w-full object-cover"/> */}
+            {/* <img src="/img/laminating.jpg" alt="Pharmadent" className="absolute inset-0 -z-10 h-full w-full object-cover"/> */}
             <Image src="/img/pharmadent.jpg" alt="404" className="absolute inset-0 -z-10 h-full w-full object-cover" width={1920} height={1080}/>
             <div className="text-center">
                 <p className="text-3xl font-semibold text-indigo-600">404</p>
