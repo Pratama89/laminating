@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import { Roboto } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import dynamic from "next/dynamic"
 
 const Navbar = dynamic(() => import("../Navbar"));
@@ -9,7 +9,7 @@ type AppSheelProps = {
     children: React.ReactNode
 }
 
-const roboto = Roboto({
+const roboto = Nunito({
     subsets: ['latin'],
     weight: ['400', '700'],
 })

@@ -1,6 +1,9 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Image from 'next/image'
+import DashboardPages from './dashboard'
+import ProductPage from './product'
+import FooterPages from './footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,13 +11,11 @@ export default function Home() {
   return (
     <div className="text-2xl font-bold text-center ">
       <Head >
-        <title>Pharmadent</title>
+        <title>Mutiara Laminating</title>
       </Head>
-      <div className='w-full h-screen bg-blend-overlay'>
-        <Image src="/img/latar-depan.jpeg" width={1920} height={1080} alt="logo" >
-        </Image>
-      </div>
-      <div className='mt-20'>Selamat Datang Di Pharmadent</div>
+      <DashboardPages />
+      <ProductPage />
+      <FooterPages />
     </div>
   )
 }

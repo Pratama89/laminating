@@ -1,4 +1,4 @@
-import ProductView from "@/views";
+import ProductView from "@/views/product";
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import useSWR from "swr";
