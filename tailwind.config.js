@@ -13,10 +13,18 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
-    // screens: {
-    //   hp: '425px',                
-    // },
+      screens: {
+        'hp': '425px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',     
+      },
+    },    
+    
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }

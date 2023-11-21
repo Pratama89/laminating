@@ -10,8 +10,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Dashboard', href: '/', current: true },
-  { name: 'Produk', href: '/product', current: false },
-  { name: 'Hubungi Kami', href: '/contact', current: false },
+  { name: 'Produk', href: '#product', current: false },
+  { name: 'Hubungi Kami', href: '#kontak', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -44,12 +44,11 @@ function Navbar() {
         //                 {data && data.user.fullname}{" "}
         //             </Link>
         //         </div>
-        //         <MenuBar />
         //       </div>
         //     </div>
         // </div>
         
-            <Disclosure as="nav" className="bg-transparent fixed top-0 w-full">
+            <Disclosure as="nav" className="bg-transparent opacity-90 fixed top-0 w-full ">
               {({ open }) => (
                 <>
                   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">

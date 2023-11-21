@@ -4,7 +4,7 @@ const FooterPages = () => {
     return (
         
     <footer
-        className="bg-blue-500 text-center text-white dark:bg-white dark:text-neutral-200 lg:text-left">
+        className="bg-blue-500 text-center text-white dark:bg-white dark:text-neutral-200 lg:text-left" id="kontak">
         <div
             className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
             <div className="mr-12 hidden lg:block">
