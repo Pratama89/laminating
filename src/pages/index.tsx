@@ -4,6 +4,7 @@ import Image from 'next/image'
 import DashboardPages from './dashboard'
 import ProductPage from './product'
 import FooterPages from './footer'
+import About from './about'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
         <title>Mutiara Laminating</title>
       </Head>
       <DashboardPages />
+      <About />
       <ProductPage />
       <FooterPages />
     </div>
