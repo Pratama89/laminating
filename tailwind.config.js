@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -25,6 +27,9 @@ module.exports = {
     
   },
   plugins: [
-    require('tailwindcss-animated')
+    require(
+      'tailwindcss-animated',
+      'daisyui',
+      )
   ],
 }
