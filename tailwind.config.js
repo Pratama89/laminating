@@ -7,6 +7,8 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/views/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
@@ -30,6 +32,7 @@ module.exports = {
     require(
       'tailwindcss-animated',
       'daisyui',
+      'flowbite/plugin'
       )
   ],
 }

@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Image from 'next/image'
 import DashboardPages from './dashboard'
 import ProductPage from './product'
 import FooterPages from './footer'

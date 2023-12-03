@@ -80,7 +80,7 @@ const FooterPages = () => {
             <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="">
                 <div
-                className="mb-4 flex items-center justify-center  uppercase md:justify-start text-3xl lg:text-lg text-slate-700 font-bold">
+                className="mb-4 flex items-center justify-center  uppercase md:justify-start text-3xl lg:text-2xl text-slate-700 font-bold">
                 
                 CV. MUTIARA LAMINATING
                 </div>
