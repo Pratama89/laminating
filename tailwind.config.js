@@ -20,7 +20,7 @@ module.exports = {
       screens: {
         'hp': [
           {
-            'min': '360px', 
+            'min': '412px', 
             'max': '640px'
           }],
         'sm': '640px',

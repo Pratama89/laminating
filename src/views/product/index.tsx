@@ -24,7 +24,7 @@ const ProductView = ({ products }: { products: ProductType[] }) => {
                 
               <div
                 className="flex md:flex-row hp:flex-col md:items-center md:h-auto rounded-xl shadow-2xl hp:h-full mb-5 md:max-w-2xl mx-auto bg-white delay-[300ms] duration-[600ms] hover:scale-[1.1] hp:items-center border border-grey-300">
-                <div className="w-64 h-64 hp:w-64 hp:h-64 bg-cover grid animate-duration-500 md:mt-0 hp:mt-4  group">
+                <div className="w-56 h-56 hp:w-64 hp:h-56 bg-cover grid animate-duration-500 md:mt-0 hp:mt-4  group">
                   <Image src={product.image} alt={product.name} height={300} width={300} className="group-hover:animate-bounce rounded-xl object-cover w-full h-full " />
                 </div>
                 <div className="w-1/4 md:w-1/2 hp:w-64 flex flex-col space-y-2 p-4 hp:p-2">                    

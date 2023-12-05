@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="bg-gray-100">
+        <section className="bg-gray-100 " id="kontak">
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold text-gray-900">Mutiara Laminating</h2>

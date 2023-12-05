@@ -5,6 +5,7 @@ import ProductPage from './product'
 import FooterPages from '../components/layouts/Footer'
 import About from './about'
 import Contact from './contact'
+import Sabar from './sabar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,10 +15,11 @@ export default function Home() {
       <Head >
         <title>Mutiara Laminating</title>
       </Head>
-      <DashboardPages />
-      <About />
-      <ProductPage />
-      <Contact />
+      <Sabar />
+      {/* <DashboardPages /> */}
+      {/* <About /> */}
+      {/* <ProductPage /> */}
+      {/* <Contact /> */}
     </div>
   )
 }
