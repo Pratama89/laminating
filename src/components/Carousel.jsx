@@ -39,13 +39,13 @@ export default function Carousel({
                 </button>
             </div>
 
-            <div className='absolute bottom-6 right-0 left-0'>
+            <div className='absolute bottom-6 right-0 left-0 '>
                 <div className='flex justify-center gap-2 items-center'>
                     {slides.map((_, i) => (
                         <div
                             className={`
-                            trantition-all w-3 h-3 bg-white rounded-full ${curr === i ? "p-2" : "bg-opacity-50"}
-                            `}
+                            trantition-all w-3 h-3 hp:w-2 hp:h-2 bg-white rounded-full ${curr === i ? "p-2" : "bg-opacity-50"}
+                            `} 
                             key={i}/>
                         ))}
                 </div>

@@ -20,35 +20,36 @@ function classNames(...classes: string[]) {
 
 function Navbar() {
     return (
-        // <div className=' w-full h-30 bg-transparent  p-2 text-white fixed top-0'>
-        //     <div className="flex justify-between items-center mx-5 ">
-        //         <div className="font-bold my-auto text-2xl text-slate-100" id="title">
-        //             <Link href={'/'}>
-        //                 <Image src="/img/logolaminating.png" width={250} height={80} alt="logo"></Image>
-        //             </Link>
-        //         </div>
-        //     <div className="flex justify-between items-center mx-2 gap-3">
-        //         <Link href={'/profile'}>
-        //         {data && data.user.image && (
-        //             <Image 
-        //               src={data.user.image} 
-        //               width={40} 
-        //               height={40}
-        //               alt={data.user.fullname} 
-        //               className=" rounded-full"
-        //             />
-        //         )}
-        //         </Link>                
-        //         <div className="animate-none">
-        //             <Link href={'/profile'}>
-        //                 {data && data.user.fullname}{" "}
-        //             </Link>
-        //         </div>
-        //       </div>
-        //     </div>
-        // </div>
+      <>
+        {/* <div className=' w-full h-30 bg-transparent  p-2 text-white fixed top-0'>
+            <div className="flex justify-between items-center mx-5 ">
+                <div className="font-bold my-auto text-2xl text-slate-100" id="title">
+                    <Link href={'/'}>
+                        <Image src="/img/logolaminating.png" width={250} height={80} alt="logo"></Image>
+                    </Link>
+                </div>
+            <div className="flex justify-between items-center mx-2 gap-3">
+                <Link href={'/profile'}>
+                {data && data.user.image && (
+                    <Image 
+                      src={data.user.image} 
+                      width={40} 
+                      height={40}
+                      alt={data.user.fullname} 
+                      className=" rounded-full"
+                    />
+                )}
+                </Link>                
+                <div className="animate-none">
+                    <Link href={'/profile'}>
+                        {data && data.user.fullname}{" "}
+                    </Link>
+                </div>
+              </div>
+            </div>
+        </div> */}
         
-            <Disclosure as="nav" className="bg-blue-600 opacity-90 fixed top-0 w-full ">
+            <Disclosure as="nav" className="bg-blue-600 opacity-90 fixed top-0 w-full z-50">
               {({ open }) => (
                 <>
                   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
@@ -123,6 +124,7 @@ function Navbar() {
                 </>
               )}
             </Disclosure>
+      </>
           )    
 }
 

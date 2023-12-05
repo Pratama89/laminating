@@ -3,6 +3,7 @@ import { Nunito } from 'next/font/google'
 import dynamic from "next/dynamic"
 
 const Navbar = dynamic(() => import("../Navbar"));
+const Footer = dynamic(() => import("../Footer"));
 
 
 type AppSheelProps = {
@@ -23,6 +24,7 @@ const AppShell = (props: AppSheelProps) => {
         <main className={roboto.className}>
             {!disableNavbar.includes(pathname) && <Navbar />}
             {children}
+            {!disableNavbar.includes(pathname) && <Footer />}
         </main>
     )
 }

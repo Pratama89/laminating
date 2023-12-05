@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const FooterPages = () => {
+const Footer = () => {
     return (
         
     <footer
@@ -181,7 +181,7 @@ const FooterPages = () => {
             </div>
         </div>
 
-        <div className="flex justify-between bg-blue-600 text-slate-200 text-sm p-6 text-center dark:bg-neutral-700">
+        <div className="flex md:flex-row hp:flex-col justify-between bg-blue-600 text-slate-200 text-sm p-6 text-center dark:bg-neutral-700">
             <span>© 2023 Copyright: CV. Mutiara Laminating</span>
             <span>Website Designed by : mccreation</span>
             
@@ -191,4 +191,4 @@ const FooterPages = () => {
     }
 
 
-export default FooterPages
+export default Footer

@@ -10,7 +10,7 @@ const ProductView = ({ products }: { products: ProductType[] }) => {
     return (
       <div className='w-full h-auto p-5 mb-5 ' id="product"> 
         
-        <h1 className="mb-4 mt-14 text-4xl font-extrabold leading-none  text-red-600 md:text-5xl lg:text-4xl dark:text-white hp:text-3xl"  >Produk dan Layanan Kami</h1>
+        <h1 className="mb-4 mt-12 text-4xl font-extrabold leading-none  text-red-600 md:text-5xl lg:text-4xl dark:text-white hp:text-3xl hp:mt-5"  >Produk dan Layanan Kami</h1>
         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Kami mengerjakan pengeleman kain dan busa dengan kualitas terbaik.</p>       
 
         <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 mx-10 lg:p-16 px-10  justify-center lg:justify-between hp:justify-center mt-5 mb-5 0 hp:mx-2 hp:grid-cols-1 "> 
@@ -23,25 +23,20 @@ const ProductView = ({ products }: { products: ProductType[] }) => {
               className=""> 
                 
               <div
-                className="flex md:flex-row hp:flex-col md:space-x-4 space-y-3 md:space-y-0 rounded-xl shadow-2xl  mb-5 md:max-w-3xl hp:max-w-xl mx-auto  bg-white delay-[300ms] duration-[600ms] hover:scale-[1.1] hp:items-center border border-gray-300">
-                <div className="w-56 h-56 bg-cover grid place-items-start animate-duration-500  group">
-                  <Image src={product.image} alt={product.name} height={300} width={300} className="group-hover:animate-bounce  rounded-xl bg-cover w-full h-full " />
+                className="flex md:flex-row hp:flex-col md:items-center md:h-auto rounded-xl shadow-2xl hp:h-full mb-5 md:max-w-2xl mx-auto bg-white delay-[300ms] duration-[600ms] hover:scale-[1.1] hp:items-center border border-grey-300">
+                <div className="w-64 h-64 hp:w-64 hp:h-64 bg-cover grid animate-duration-500 md:mt-0 hp:mt-4  group">
+                  <Image src={product.image} alt={product.name} height={300} width={300} className="group-hover:animate-bounce rounded-xl object-cover w-full h-full " />
                 </div>
-                  <div className="w-1/4 md:w-2/3 hp:w-64  bg-white flex flex-col space-y-2 space-x-reverse my-auto p-3  hp:p-1">                    
-                    <h3 className="font-black text-gray-800 md:text-lg text-lg truncate text-left mt-8 hp:mt-2 ">{product.name}</h3>
-                    <p className="md:text-sm text-gray-600 text-base text-left hp:mb-2">{product.keterangan}</p>                    
-                  </div>
+                <div className="w-1/4 md:w-1/2 hp:w-64 flex flex-col space-y-2 p-4 hp:p-2">                    
+                  <h3 className="font-black text-gray-800 md:text-lg text-lg truncate text-left hp:mt-2 md:w-full ">{product.name}</h3>
+                  <p className="md:text-sm text-gray-600 text-base text-left hp:mb-2 md:w-full">{product.keterangan}</p>                    
+                </div>
                 </div>                               
-                </Link>
+              </Link>
                 ))}
                 </>
               ) : (
-                // <div className="w-1/4 p-3 animate-pulse">
-                //   <div className="w-full aspect-square rounded-sm bg-slate-400" />
-                //   <div className="w-full h-5 mt-1 bg-slate-400 rounded-sm" />
-                //   <div className="w-full h-4 mt-1 bg-slate-400 rounded-sm" />
-                //   <div className="w-full h-4 mt-2 bg-slate-400 rounded-sm" />
-                // </div>  
+                
                 
         <div role="status">
             <svg aria-hidden="true" className="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
