@@ -6,6 +6,7 @@ import FooterPages from '../components/layouts/Footer'
 import About from './about'
 import Contact from './contact'
 import Sabar from './sabar'
+import Hero from './hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
         <title>Mutiara Laminating</title>
       </Head>
       <Sabar />
+      <Hero />
       {/* <DashboardPages /> */}
       {/* <About /> */}
       {/* <ProductPage /> */}
