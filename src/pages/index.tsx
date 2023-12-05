@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="text-2xl font-bold text-center ">
+    <div className="text-2xl text-center w-full">
       <Head >
         <title>Mutiara Laminating</title>
       </Head>
