@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const DashboardPages = () => {
     return (        
-        <section className="bg-center bg-no-repeat bg-[url('/img/latar-depan.png')] bg-white bg-blend-multiply bg-cover -mt-20 w-full" id="home">
-            <div className="px-4 mx-auto mt-16 hp:mt-20 max-w-screen-xl text-center py-24 lg:py-56">
+        <section className="bg-center bg-no-repeat bg-[url('/img/latar-depan.png')] bg-white bg-blend-multiply bg-cover -mt-20 w-full relative" id="home">
+            <div className="px-4 mx-auto mt-16 hp:mt-20 max-w-screen-xl text-center py-24 lg:py-56 ">
                 <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-black lg:mt-10 sm:text-5xl md:text-5xl lg:text-6xl hp:text-3xl hp:mt-20 ">CV. MUTIARA LAMINATING</h1>
                 <p className="mb-8 text-lg font-normal text-black lg:text-xl sm:px-16 lg:px-48 hp:mb-16">Dipercaya oleh lebih dari ratusan pelaku industri sebagai penyedia jasa laminating kain dan busa sejak tahun 2014.</p>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center hp:items-center sm:space-y-0">

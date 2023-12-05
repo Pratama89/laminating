@@ -15,7 +15,7 @@ const slides = [
 
 export default function About() {
   return (
-    <div className="py-16 bg-white container mx-auto px-6 ">
+    <div className="py-16 bg-white container mx-auto px-6 static">
       <h1 className="mb-4 mt-12 text-4xl font-extrabold  text-red-600 md:text-3xl lg:text-4xl dark:text-white hp:text-3xl hp:mt-10">
         Tentang Kami
       </h1>

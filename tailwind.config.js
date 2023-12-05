@@ -12,17 +12,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      // backgroundImage: {
+      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      //   'gradient-conic':
+      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      // },
       screens: {
         'hp': [
           {
-            'min': '380px', 
-            'max': '640px'
-          }],
+            'min': '280px', 
+            'max': '412px'
+          }
+        ],
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
@@ -33,9 +34,7 @@ module.exports = {
     
   },
   plugins: [
-    require(
-      'tailwindcss-animated',
-      'daisyui',
+    require(      
       'flowbite/plugin'
       )
   ],

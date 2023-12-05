@@ -8,7 +8,7 @@ import Link from "next/link";
 const ProductView = ({ products }: { products: ProductType[] }) => {
   console.log(products);
     return (
-      <div className='w-full h-auto p-5 mb-5 ' id="product"> 
+      <div className='w-full h-auto p-5 mb-5 relative' id="product"> 
         
         <h1 className="mb-4 mt-12 text-4xl font-extrabold leading-none  text-red-600 md:text-5xl lg:text-4xl dark:text-white hp:text-3xl hp:mt-5"  >Produk dan Layanan Kami</h1>
         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Kami mengerjakan pengeleman kain dan busa dengan kualitas terbaik.</p>       

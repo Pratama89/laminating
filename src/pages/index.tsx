@@ -16,12 +16,12 @@ export default function Home() {
       <Head >
         <title>Mutiara Laminating</title>
       </Head>
-      <Sabar />
-      <Hero />
-      {/* <DashboardPages /> */}
-      {/* <About /> */}
-      {/* <ProductPage /> */}
-      {/* <Contact /> */}
+      {/* <Sabar /> */}
+      {/* <Hero /> */}
+      <DashboardPages />
+      <About />
+      <ProductPage />
+      <Contact />
     </div>
   )
 }
